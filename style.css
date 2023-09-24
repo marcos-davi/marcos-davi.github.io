@@ -14,4 +14,20 @@ h2{
     color: blue;
     font-size: 250%;
 }
+#container{
+    display: flex;
+}
+div{
+    padding: auto;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    color: yellow;
+    
+}
+
 
