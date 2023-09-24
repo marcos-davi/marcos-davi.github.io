@@ -1,23 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     background-color: yellow;
 }
 
-h1{
-    color: rgb(255, 0, 0); 
-    font-family: arial, sans-serif; 
+h1 {
+    color: rgb(255, 0, 0);
+    font-family: arial, sans-serif;
     font-size: 500%;
 }
 
-h2{
+h2 {
     color: blue;
     font-size: 250%;
 }
-#container{
+
+#container {
     display: flex;
 }
-div{
+
+div {
     padding: auto;
     background-color: blue;
     height: 50px;
@@ -27,7 +29,5 @@ div{
     flex-direction: column;
     text-align: center;
     color: yellow;
-    
+
 }
-
-
