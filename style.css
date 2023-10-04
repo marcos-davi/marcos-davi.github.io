@@ -17,17 +17,19 @@ h2 {
 
 #container {
     display: flex;
+    justify-content: space-around;
+
 }
 
-div {
-    padding: auto;
+.item {
+
     background-color: blue;
-    height: 50px;
-    width: 50px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
-    flex-wrap: wrap;
-    flex-direction: column;
+    
     text-align: center;
     color: yellow;
+
 
 }
